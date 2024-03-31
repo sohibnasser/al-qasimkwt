@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar{
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #6153BD;
+    border-radius: 6px;
+  }
+  
+  body{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+  }
+  
+  
+  body:hover ~ .cursor {
+      transform: scale(5);
+    }
+  
+  .cursor{
+    width: 32px;
+    height: 32px;
+    background-color: #6c6a6a;
+    position: fixed;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+  }
+
+
+  .WhatsUp{
+    width: 180px;
+    height: 3rem;
+    position: fixed;
+    top: 80%;
+    background: #25d366;
+    color: white;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    gap: 4%;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  

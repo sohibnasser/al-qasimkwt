@@ -1,0 +1,23 @@
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body:hover ~ .cursor {
+  transform: scale(5);
+  color: aliceblue;
+}
+
+
+.cursor{
+width: 32px;
+height: 32px;
+background-color: #6c6a6a;
+position: fixed;
+border-radius: 50%;
+top: 0;
+left: 0;
+pointer-events: none;
+mix-blend-mode: difference;
+}
